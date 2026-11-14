@@ -22,3 +22,13 @@
 .setup-notice p{margin:5px 0 0;color:#86542a;font-size:.84rem}
 .setup-notice code{font-size:.88em;overflow-wrap:anywhere}
 [hidden]{display:none!important}
+
+/* メールアプリが起動しない環境でも問い合わせ先を利用できるようにする */
+.contact-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:10px 0 14px}
+.contact-actions .contact-button{margin:0}
+.contact-copy-button{border:1px solid var(--deep);border-radius:8px;background:transparent;color:var(--deep);font-size:.86rem;font-weight:700;padding:12px 17px;cursor:pointer}
+.contact-copy-button:hover{background:var(--light)}
+.contact-copy-button:focus-visible{outline:3px solid #b26c42;outline-offset:4px}
+.contact-copy-status{color:var(--deep)!important;font-size:.83rem!important;margin:3px 0 8px!important}
+.contact-copy-status:empty{display:none}
+.contact-hint{color:var(--muted);font-size:.8rem!important;margin:3px 0 15px!important}
